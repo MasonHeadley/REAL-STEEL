@@ -1,0 +1,10 @@
+{
+  "note": "Infantry classes. about is shown on the deploy screen. A class with squad_share 0 is only ever a player. kit also takes rocket and tools. speed m/s, range m. A soldier fires burst shots shot_gap seconds apart, then waits pause seconds. hit_chance is per shot. kit picks the model's gear: rifle, machine_gun or medical. squad_share is how many of each go in a squad.",
+  "rows": [
+    {"id": "assault", "name": "Assault", "kit": "rifle", "squad_share": 1, "hp": 10, "speed": 6.5, "range": 75, "burst": 1, "shot_gap": 0.2, "pause": 1.3, "hit_chance": 0.35, "damage": 6, "grenades": true, "prone": false, "medic": false},
+    {"id": "gunner", "name": "Machine gunner", "kit": "machine_gun", "squad_share": 1, "hp": 12, "speed": 5.2, "range": 95, "burst": 14, "shot_gap": 0.11, "pause": 1.2, "hit_chance": 0.1, "damage": 5, "grenades": false, "prone": true, "medic": false},
+    {"id": "medic", "name": "Medic", "kit": "medical", "squad_share": 1, "hp": 10, "speed": 6.8, "range": 0, "burst": 0, "shot_gap": 0.2, "pause": 1.0, "hit_chance": 0, "damage": 0, "grenades": false, "prone": false, "medic": true},
+    {"id": "rocket", "name": "Anti-tank", "kit": "rocket", "squad_share": 1, "rocket_damage": 230, "rocket_pen": 260, "hp": 10, "speed": 6.0, "range": 75, "burst": 1, "shot_gap": 0.3, "pause": 1.3, "hit_chance": 0.3, "damage": 5, "grenades": true, "prone": false, "medic": false},
+    {"id": "engineer", "name": "Engineer", "kit": "tools", "squad_share": 1, "hp": 10, "speed": 6.5, "range": 75, "burst": 1, "shot_gap": 0.25, "pause": 1.3, "hit_chance": 0.3, "damage": 5, "grenades": true, "prone": false, "medic": false}
+  ]
+}

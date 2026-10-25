@@ -1,0 +1,31 @@
+{
+  "note": "Crew voice lines. tools/make_voices.ps1 reads this sheet and writes voice/<id>.wav with Windows' built-in speech voices: speaker crew = your own crew, reply = other tanks answering on the radio, infantry = soldiers on the ground, who are only heard from close by. Re-run it after changing a line.",
+  "rows": [
+    {"id": "hit_pen", "speaker": "crew", "text": "Target hit!"},
+    {"id": "hit_ricochet", "speaker": "crew", "text": "Ricochet!"},
+    {"id": "hit_nonpen", "speaker": "crew", "text": "Didn't go through!"},
+    {"id": "kill", "speaker": "crew", "text": "Enemy destroyed!"},
+    {"id": "we_hit", "speaker": "crew", "text": "We're hit!"},
+    {"id": "track", "speaker": "crew", "text": "Track's gone!"},
+    {"id": "engine", "speaker": "crew", "text": "Engine's damaged!"},
+    {"id": "gun", "speaker": "crew", "text": "Gun's knocked out!"},
+    {"id": "loaded", "speaker": "crew", "text": "Loaded!"},
+    {"id": "spotted", "speaker": "crew", "text": "Enemy spotted!"},
+    {"id": "moving_out", "speaker": "crew", "text": "Moving out!"},
+    {"id": "ping_attack", "speaker": "crew", "text": "All guns, attack that target!"},
+    {"id": "ping_move", "speaker": "crew", "text": "Move to that position!"},
+    {"id": "ping_cover", "speaker": "crew", "text": "Take cover!"},
+    {"id": "ping_follow", "speaker": "crew", "text": "Form up on me!"},
+    {"id": "ping_rush", "speaker": "crew", "text": "Push the objective!"},
+    {"id": "roger", "speaker": "reply", "text": "Roger that!"},
+    {"id": "inf_grenade", "speaker": "infantry", "text": "Grenade!"},
+    {"id": "inf_down", "speaker": "infantry", "text": "Man down!"},
+    {"id": "inf_medic", "speaker": "infantry", "text": "Medic!"},
+    {"id": "inf_tank", "speaker": "infantry", "text": "Tank! Get down!"},
+    {"id": "inf_cover", "speaker": "infantry", "text": "Covering fire!"},
+    {"id": "inf_got_him", "speaker": "infantry", "text": "Got him!"},
+    {"id": "inf_gotcha", "speaker": "infantry", "text": "I've got you, hold on!"},
+    {"id": "inf_up", "speaker": "infantry", "text": "On your feet!"},
+    {"id": "inf_move", "speaker": "infantry", "text": "Move up! Move up!"}
+  ]
+}

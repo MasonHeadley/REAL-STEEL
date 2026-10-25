@@ -1,0 +1,10 @@
+{
+  "note": "The ping wheel, clockwise from the top. order is what friendly bots do for the next 20 seconds; voice names a line in voices.json.",
+  "rows": [
+    {"id": "attack", "label": "Attack that target", "order": "attack", "voice": "ping_attack", "colour": "#ff6050"},
+    {"id": "move", "label": "Move there", "order": "move", "voice": "ping_move", "colour": "#60b0ff"},
+    {"id": "cover", "label": "Take cover", "order": "cover", "voice": "ping_cover", "colour": "#ffd050"},
+    {"id": "follow", "label": "Follow me", "order": "follow", "voice": "ping_follow", "colour": "#70e090"},
+    {"id": "rush", "label": "Rush the objective", "order": "rush", "voice": "ping_rush", "colour": "#ffffff"}
+  ]
+}

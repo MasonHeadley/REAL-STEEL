@@ -1,0 +1,24 @@
+﻿{
+  "note": "Things a player can fit to a vehicle in the garage. slot is where it goes: front_upper, front_lower, side (either side), basket (turret rear), deck (engine deck) or rear. size is 1 (small) or 2 (large); every slot holds 2. level is the player level that unlocks it. stat and amount are what it does: speed, accel and reload multiply; front_armour and side_armour add millimetres; track_repair and engine_repair multiply how long repairs take; none does nothing yet (the effect text says what it is meant to do). shape is how it is drawn: can, box, roll, log, bags, plate, lamp, blade, coil.",
+  "rows": [
+    {"id": "headlights", "name": "Headlights", "slot": "front_upper", "size": 1, "level": 1, "effect": "Lights for night maps (no night maps yet)", "stat": "none", "amount": 0, "shape": "lamp"},
+    {"id": "sandbags_front", "name": "Sandbags", "slot": "front_upper", "size": 2, "level": 3, "effect": "+12 mm front armour, -3% speed", "stat": "front_armour", "amount": 12, "shape": "bags"},
+    {"id": "track_links", "name": "Spare track links", "slot": "front_upper", "size": 2, "level": 6, "effect": "+10 mm front armour", "stat": "front_armour", "amount": 10, "shape": "plate"},
+    {"id": "tow_bar", "name": "Tow shackles", "slot": "front_lower", "size": 1, "level": 2, "effect": "Push wrecks harder (not built yet)", "stat": "none", "amount": 0, "shape": "box"},
+    {"id": "dozer", "name": "Dozer blade", "slot": "front_lower", "size": 2, "level": 12, "effect": "+15 mm front armour, -6% speed", "stat": "front_armour", "amount": 15, "shape": "blade"},
+    {"id": "fuel_can", "name": "Fuel can", "slot": "side", "size": 1, "level": 1, "effect": "+5% engine performance", "stat": "accel", "amount": 1.05, "shape": "can"},
+    {"id": "tow_rope", "name": "Tow rope", "slot": "side", "size": 1, "level": 2, "effect": "Tracks repair 10% faster", "stat": "track_repair", "amount": 0.9, "shape": "coil"},
+    {"id": "tool_kit", "name": "Tool kit", "slot": "side", "size": 1, "level": 2, "effect": "Engine repairs 10% faster", "stat": "engine_repair", "amount": 0.9, "shape": "box"},
+    {"id": "ammo_box", "name": "Ammo box", "slot": "side", "size": 1, "level": 5, "effect": "-3% reload time", "stat": "reload", "amount": 0.97, "shape": "box"},
+    {"id": "log", "name": "Unditching log", "slot": "side", "size": 2, "level": 5, "effect": "+8 mm side armour (instant track fix not built yet)", "stat": "side_armour", "amount": 8, "shape": "log"},
+    {"id": "skirts", "name": "Side skirts", "slot": "side", "size": 2, "level": 9, "effect": "+15 mm side armour, -3% speed", "stat": "side_armour", "amount": 15, "shape": "plate"},
+    {"id": "packs", "name": "Stowage packs", "slot": "basket", "size": 1, "level": 1, "effect": "For looks", "stat": "none", "amount": 0, "shape": "roll"},
+    {"id": "radio", "name": "Extra radio", "slot": "basket", "size": 1, "level": 4, "effect": "Longer pings (not built yet)", "stat": "none", "amount": 0, "shape": "box"},
+    {"id": "ammo_rack", "name": "Spare ammunition rack", "slot": "basket", "size": 2, "level": 11, "effect": "-8% reload time", "stat": "reload", "amount": 0.92, "shape": "box"},
+    {"id": "tarp", "name": "Tarpaulin", "slot": "deck", "size": 1, "level": 3, "effect": "For looks (quieter engine not built yet)", "stat": "none", "amount": 0, "shape": "roll"},
+    {"id": "fuel_drums", "name": "Spare fuel drums", "slot": "deck", "size": 2, "level": 9, "effect": "+8% engine performance", "stat": "accel", "amount": 1.08, "shape": "can"},
+    {"id": "deck_bags", "name": "Deck sandbags", "slot": "deck", "size": 2, "level": 10, "effect": "For looks (grenade protection not built yet)", "stat": "none", "amount": 0, "shape": "bags"},
+    {"id": "rear_cable", "name": "Tow cable", "slot": "rear", "size": 1, "level": 5, "effect": "Tracks repair 10% faster", "stat": "track_repair", "amount": 0.9, "shape": "coil"},
+    {"id": "rear_bin", "name": "Stowage bin", "slot": "rear", "size": 2, "level": 14, "effect": "For looks", "stat": "none", "amount": 0, "shape": "box"}
+  ]
+}

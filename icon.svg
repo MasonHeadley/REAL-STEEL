@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- The game's icon: a tank, a jet passing over it, and a shell burst behind them. -->
+  <rect x="6" y="6" width="244" height="244" rx="40" fill="#1b1d1c"/>
+  <rect x="6" y="6" width="244" height="244" rx="40" fill="none" stroke="#4a4f48" stroke-width="6"/>
+  <!-- burst -->
+  <polygon fill="#d8451c" points="150,122 163,60 176,104 214,52 204,108 246,96 214,130 244,158 200,154 206,196 174,164 150,200 142,160 104,176 126,140 96,112 136,116"/>
+  <polygon fill="#f39a1d" points="158,124 166,84 176,114 200,82 194,116 224,112 202,132 222,150 192,148 194,174 174,154 158,176 154,150 128,158 144,138 124,120 150,124"/>
+  <polygon fill="#ffe28a" points="166,128 170,108 178,122 190,110 188,126 202,128 190,136 198,146 184,144 182,156 172,146 162,154 162,142 150,142 158,134"/>
+  <!-- jet, banking across the top -->
+  <g transform="rotate(-14 96 62)" fill="#c9cdc6" stroke="#1b1d1c" stroke-width="3" stroke-linejoin="round">
+    <polygon points="24,62 60,52 150,54 176,62 150,70 60,72"/>
+    <polygon points="86,56 116,56 78,24 64,24"/>
+    <polygon points="86,68 116,68 78,100 64,100"/>
+    <polygon points="30,60 50,58 34,40 26,40"/>
+    <polygon points="30,64 50,66 34,84 26,84"/>
+  </g>
+  <!-- tank -->
+  <g fill="#5d6b4a" stroke="#1b1d1c" stroke-width="4" stroke-linejoin="round">
+    <rect x="150" y="150" width="88" height="10" rx="4" transform="rotate(-9 150 155)"/>
+    <polygon points="78,170 92,142 150,138 166,170"/>
+    <polygon points="30,198 46,170 196,170 222,198"/>
+    <rect x="26" y="194" width="200" height="36" rx="18" fill="#2c302b"/>
+  </g>
+  <g fill="#8a8f86" stroke="#1b1d1c" stroke-width="3">
+    <circle cx="48" cy="212" r="11"/><circle cx="82" cy="212" r="11"/><circle cx="116" cy="212" r="11"/>
+    <circle cx="150" cy="212" r="11"/><circle cx="184" cy="212" r="11"/><circle cx="208" cy="210" r="8"/>
+  </g>
+</svg>

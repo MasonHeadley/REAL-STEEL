@@ -1,0 +1,24 @@
+{
+  "note": "pen in mm at point blank, velocity in m/s. pen_loss_per_km is the fraction of penetration lost per 1000 m. splash_radius in metres. kind is shell (main gun) or bullet (machine gun). HE: if pen beats the plate it overpressures the crew for extra damage; otherwise damage scales with pen / armour. The _lob shell is deliberately slow so artillery can arc it over cover.",
+  "rows": [
+    {"id": "105_ap", "name": "105 mm AP", "kind": "shell", "type": "AP", "pen": 240, "pen_loss_per_km": 0.2, "splash_radius": 0, "damage": 340, "velocity": 950},
+    {"id": "105_he", "name": "105 mm HE", "kind": "shell", "type": "HE", "pen": 32, "pen_loss_per_km": 0, "splash_radius": 5, "damage": 340, "velocity": 760},
+    {"id": "122_ap", "name": "122 mm AP", "kind": "shell", "type": "AP", "pen": 215, "pen_loss_per_km": 0.18, "splash_radius": 0, "damage": 470, "velocity": 800},
+    {"id": "122_he", "name": "122 mm HE", "kind": "shell", "type": "HE", "pen": 42, "pen_loss_per_km": 0, "splash_radius": 6, "damage": 500, "velocity": 780},
+    {"id": "105_apds", "name": "105 mm APDS", "kind": "shell", "type": "AP", "pen": 300, "pen_loss_per_km": 0.25, "splash_radius": 0, "damage": 260, "velocity": 1470},
+    {"id": "105_heat", "name": "105 mm HEAT", "kind": "shell", "type": "HEAT", "pen": 400, "pen_loss_per_km": 0, "splash_radius": 0, "damage": 290, "velocity": 1100},
+    {"id": "120_ap", "name": "120 mm AP", "kind": "shell", "type": "AP", "pen": 320, "pen_loss_per_km": 0.2, "splash_radius": 0, "damage": 420, "velocity": 1050},
+    {"id": "120_he", "name": "120 mm HE", "kind": "shell", "type": "HE", "pen": 40, "pen_loss_per_km": 0, "splash_radius": 6, "damage": 440, "velocity": 800},
+    {"id": "155_he_lob", "name": "155 mm HE", "kind": "shell", "type": "HE", "pen": 60, "pen_loss_per_km": 0, "splash_radius": 11, "damage": 650, "velocity": 120},
+    {"id": "76_ap", "name": "76 mm AP", "kind": "shell", "type": "AP", "pen": 190, "pen_loss_per_km": 0.22, "splash_radius": 0, "damage": 200, "velocity": 975},
+    {"id": "76_he", "name": "76 mm HE", "kind": "shell", "type": "HE", "pen": 18, "pen_loss_per_km": 0, "splash_radius": 3.5, "damage": 210, "velocity": 730},
+    {"id": "76s_heat", "name": "76 mm HEAT", "kind": "shell", "type": "HEAT", "pen": 200, "pen_loss_per_km": 0, "splash_radius": 0, "damage": 230, "velocity": 550},
+    {"id": "30_ap", "name": "30 mm AP", "kind": "shell", "type": "AP", "pen": 72, "pen_loss_per_km": 0.35, "splash_radius": 0, "damage": 24, "velocity": 1000},
+    {"id": "30_he", "name": "30 mm HE", "kind": "shell", "type": "HE", "pen": 9, "pen_loss_per_km": 0, "splash_radius": 2, "damage": 20, "velocity": 900},
+    {"id": "mg_762", "name": "7.62 mm MG", "kind": "bullet", "type": "AP", "pen": 9, "pen_loss_per_km": 0.5, "splash_radius": 0, "damage": 6, "velocity": 850},
+    {"id": "mg_127", "name": "12.7 mm MG", "kind": "bullet", "type": "AP", "pen": 22, "pen_loss_per_km": 0.5, "splash_radius": 0, "damage": 14, "velocity": 890},
+    {"id": "adats_msl", "name": "ADATS missile", "kind": "shell", "type": "HEAT", "pen": 400, "pen_loss_per_km": 0, "splash_radius": 3, "damage": 330, "velocity": 330},
+    {"id": "35_he", "name": "35 mm HE (anti-aircraft)", "kind": "shell", "type": "HE", "pen": 3, "pen_loss_per_km": 0, "splash_radius": 2, "damage": 6, "velocity": 1050, "air_damage": 26, "module_mult": 0.04},
+    {"id": "35_ap", "name": "35 mm AP", "kind": "shell", "type": "AP", "pen": 38, "pen_loss_per_km": 0.4, "splash_radius": 0, "damage": 15, "velocity": 1100, "air_damage": 20, "module_mult": 0.2}
+  ]
+}

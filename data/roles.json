@@ -1,0 +1,7 @@
+{
+  "rows": [
+    {"id": "tank", "name": "Tank", "colour": "#5aa0ff", "blurb": "Heavy armour. Holds the robot and soaks up fire."},
+    {"id": "dps", "name": "Damage", "colour": "#ff7a5a", "blurb": "Big guns. Kills what the tanks stop."},
+    {"id": "support", "name": "Support", "colour": "#6fdc8c", "blurb": "Fast and fragile. Scouts, repairs and flanks."}
+  ]
+}

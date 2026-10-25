@@ -1,0 +1,13 @@
+{
+  "note": "face is laugh, cry, angry, wow, or none (then the label is shown as a speech bubble). sound names a sound in sfx.gd.",
+  "rows": [
+    {"id": "laugh", "label": "Ha ha!", "face": "laugh", "sound": "laugh", "pitch": 1.0},
+    {"id": "cry", "label": "Sob", "face": "cry", "sound": "cry", "pitch": 1.0},
+    {"id": "angry", "label": "Grr", "face": "angry", "sound": "angry", "pitch": 1.0},
+    {"id": "wow", "label": "Wow", "face": "wow", "sound": "wow", "pitch": 1.0},
+    {"id": "good_luck", "label": "Good luck!", "face": "none", "sound": "ability", "pitch": 1.0},
+    {"id": "well_played", "label": "Well played!", "face": "none", "sound": "ability", "pitch": 1.2},
+    {"id": "thanks", "label": "Thanks!", "face": "none", "sound": "ability", "pitch": 1.4},
+    {"id": "oops", "label": "Oops", "face": "none", "sound": "wow", "pitch": 0.7}
+  ]
+}
