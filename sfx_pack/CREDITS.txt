@@ -1,0 +1,46 @@
+Recorded sound effects in this folder. All are CC0 (public domain) except the engine loop,
+which is CC-BY 3.0 and must stay credited:
+
+engine_roar_*
+    "Engine-loop heavy vehicle/tank" by Nayckron (with qubodup), licensed CC-BY 3.0
+    https://opengameart.org/content/engine-loop-heavy-vehicletank
+    https://creativecommons.org/licenses/by/3.0/
+
+cannon_*, explosion_*, pop_*
+    "25 CC0 bang / firework SFX" by rubberduck
+    https://opengameart.org/content/25-cc0-bang-firework-sfx
+
+gun_*, explosion_5, explosion_6 (recordings of real naval guns and a shell striking metal)
+    "Tiny Naval Battle Sounds Set" by qubodup (Iwan Gabovitch), CC0
+    https://opengameart.org/content/tiny-naval-battle-sounds-set
+
+pen_*, thud_*, tink_*, dirt_*
+    "Impact Sounds" by Kenney
+    https://kenney.nl/assets/impact-sounds
+
+Files were renamed; nothing else was changed. A sound with files here replaces the
+synthesised one of the same name in the sfx folder.
+
+mg_*, mg_heavy_*, inf_mg_*, autocannon_*, cannon_5, cannon_6, mg_inside_*, suspense_*, music_*
+    Cut from the recordings in "sounds i found online" (downloaded by the project owner).
+    SOURCE AND LICENCE NOT YET RECORDED: fill in the site and each file's licence here.
+
+Cut from the user's own video captures (audio kept in "sounds i found online\clips") by tools\cut_clips.ps1:
+  cannon_large_*, cannon_mid_*, cannon_small_*, cannon_mid_inside_*, cannon_small_inside_*,
+  reload_*, reload_small_*, mg_*, mg_heavy_*, mg_inside_*, mg_heavy_inside_*, ammo_*
+  Source / licence: NOT YET RECORDED. If these were captured from another game, they are fine
+  for private play with friends but must be replaced before the game is shared publicly.
+No longer used by the game (files left in place): cannon_*, gun_0.
+
+Added from "sounds i found online" by tools\cut_clips.ps1 (source / licence NOT YET RECORDED):
+  kill_0, levelup_0, zip_0-1, ricochet_0-1, tink_0-4, and clack_0-11 (from the track video clip).
+  Not used yet: "vulcanrotorygun spinning.mp3", "campain cutsean.mp3".
+
+MODELS
+models/soldier.glb: "Soldier" by KolosStudios, from Poly Pizza (https://poly.pizza/m/XT8jgwSesV),
+  licence CC-BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Recoloured and animated in code.
+  This credit must stay with the game wherever it is shared.
+
+Aircraft engine loops (heli_*, prop_*, jet_*) cut by tools\cut_air_sounds.ps1 from the owner's files in "sounds i found online" (source / licence NOT YET RECORDED).
+
+rocket_0, jetby_0, jetby_1, propby_0: cut by tools/cut_rocket_sounds.ps1 from the owner's files in 'sounds i found online' (sources NOT YET RECORDED). lock_tone_0: a generated sine tone.
